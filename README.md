@@ -51,10 +51,10 @@ Control is done within a Coroutine.
 ## 🔐 Permissions Required
 
 The app uses several permissions:
-- CAMERA – Smile detection
-- RECORD_AUDIO – Noise check
-- ACCESS_FINE_LOCATION – WiFi scan
-- BLUETOOTH_CONNECT / BLUETOOTH_SCAN – Headphones check
+- **CAMERA** – Smile detection
+- **RECORD_AUDIO** – Noise check
+- **ACCESS_FINE_LOCATION** – WiFi scan
+- **BLUETOOTH_CONNECT / BLUETOOTH_SCAN** – Headphones check
 
 ---
 
@@ -79,21 +79,12 @@ app/
 ## 🎯 Summary
 
 The app demonstrates smart use of Android mechanisms:
-
-✔ WiFi
-
-✔ Bluetoothc
-
-✔ Battery Manager
-
-✔ Microphone AudioRecord
-
-✔ Camera
-
-✔ ML Kit Face Detection
-
-✔ Coroutines
-
-✔ Permissions API
-
+- WiFi
+- Bluetoothc
+- Battery Manager
+- Microphone AudioRecord
+- Camera
+- ML Kit Face Detection
+- Coroutines
+- Permissions API
 and implements a context-based login system.
