@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_context_aware_login"
+        android:textSize="@dimen/textSize_24"
+        android:layout_marginTop="@dimen/marginTop_64"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password_battery"
+        android:inputType="textPassword"
+        android:minHeight="@dimen/minHeight_48"
+        android:layout_marginTop="@dimen/marginTop_32"
+        android:layout_marginStart="@dimen/marginStart_32"
+        android:layout_marginEnd="@dimen/marginEnd_32"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:layout_marginTop="@dimen/marginTop_16"
+        app:layout_constraintTop_toBottomOf="@id/et_password"
+        app:layout_constraintStart_toStartOf="@id/et_password"
+        app:layout_constraintEnd_toEndOf="@id/et_password" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_status"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_32"
+        android:gravity="center"
+        android:text="@string/status_waiting_for_login"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        app:layout_constraintStart_toStartOf="@id/btn_login"
+        app:layout_constraintEnd_toEndOf="@id/btn_login" />
+
+
+    <!-- Checklist of all conditions -->
+    <LinearLayout
+        android:id="@+id/layout_checklist"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/marginTop_16"
+        android:gravity="end"
+        app:layout_constraintTop_toBottomOf="@id/tv_status"
+        app:layout_constraintStart_toStartOf="@id/tv_status"
+        app:layout_constraintEnd_toEndOf="@id/tv_status"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_check_1_plus_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_conditions_1_2"
+            android:textSize="@dimen/textSize_14"
+          />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_check_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_condition_3"
+            android:textSize="@dimen/textSize_14"
+           />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_check_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_condition_4"
+            android:textSize="@dimen/textSize_14"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_check_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_condition_5"
+            android:textSize="@dimen/textSize_14"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_check_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_condition_6"
+            android:textSize="@dimen/textSize_14"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="status_permissions_granted">Status: Permissions granted. Ready to authenticate.</string>
+    <string name="status_permissions_denied">Status: Permissions denied. Cannot perform all context checks.</string>
+    <string name="permissions_denied_toast">Permissions Denied. Login functionality may be limited.</string>
+
+    <string name="status_missing_permissions">Status: ERROR: Missing permissions. Please allow all permissions.</string>
+    <string name="status_running_checks">Status: Running 6 context checks</string>
+    <string name="login_failed">Status: LOGIN FAILED! One or more context checks failed.</string>
+    <string name="login_success">Status: LOGIN SUCCESS! All 6 context checks passed.</string>
+
+    <string name="status_please_enter_password">Status: Please enter a password.</string>
+
+    <string name="check_item_success">✅ %1$s</string>
+    <string name="check_item_failure">❌ %1$s</string>
+
+    <string name="check_default_1_2">Conditions 1+2: Battery &amp; Password</string>
+    <string name="check_default_3">Condition 3: Bluetooth connection</string>
+    <string name="check_default_4">Condition 4: Noise threshold</string>
+    <string name="check_default_5">Condition 5: WiFi Network</string>
+    <string name="check_default_6">Condition 6: Smile Detection</string>
+
+    <string name="title_context_aware_login">Context-Aware Login</string>
+    <string name="hint_password_battery">Enter Password (must include battery %)</string>
+    <string name="btn_login">Login</string>
+    <string name="status_waiting_for_login">Status: Waiting for login</string>
+
+    <string name="check_conditions_1_2">Conditions 1+2: Battery &amp; Password</string>
+    <string name="check_condition_3">Condition 3: Bluetooth connection</string>
+    <string name="check_condition_4">Condition 4: Noise threshold</string>
+    <string name="check_condition_5">Condition 5: WiFi Network</string>
+    <string name="check_condition_6">Condition 6: Smile Detection</string>
+
+
+
+
+</resources>
