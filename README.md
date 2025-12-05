@@ -1,10 +1,15 @@
-📱 **Context-Aware Login**
+# 📱 Context-Aware Login
+
 An Android app that demonstrates a smart login mechanism based on environmental conditions (Context-Aware Authentication).
 The user must meet 6 different conditions before being granted "access" — some based on system data, others on sensors or ML-based recognition.
 The app was developed as part of a course exercise, and aims to demonstrate the use of several different Android APIs: camera, microphone, sensors, WiFi, Bluetooth, and more.
 
-✨ **Features**
+---
+
+## ✨ Features
+
 The app allows connection only if all 6 conditions are met:
+
 1️⃣+2️⃣ **Battery Level + Password Context**
 The condition checks two things:
 The battery percentage is between 40% and 80%
@@ -36,16 +41,24 @@ If all 6 conditions are met: "Access Granted" is displayed
 Otherwise, a list of reasons for failure is displayed
 Control is done within a Coroutine.
 
-🔐 **Permissions Required**
+---
+
+## 🔐 Permissions Required
+
 The app uses several permissions:
 CAMERA – Smile detection
 RECORD_AUDIO – Noise check
 ACCESS_FINE_LOCATION – WiFi scan
 BLUETOOTH_CONNECT / BLUETOOTH_SCAN – Headphones check
 
-📸 **Example Scenario (Video)**
+---
 
-📂 **Project Structure**
+## 📸 Example Scenario (Video)
+
+---
+
+## 📂 Project Structure
+
 app/
  ├── src/
  │    ├── main/
@@ -56,7 +69,10 @@ app/
  │    └── ...
  └── build.gradle
 
-🎯 **Summary**
+ ---
+
+## 🎯 Summary
+
 The app demonstrates smart use of Android mechanisms:
 ✔ WiFi
 ✔ Bluetooth
