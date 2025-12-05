@@ -10,7 +10,7 @@ The app was developed as part of a course exercise, and aims to demonstrate the 
 
 The app allows connection only if all 6 conditions are met:
 
-1️⃣**+**2️⃣ **Battery Level + Password Context**
+1️⃣+2️⃣ **Battery Level + Password Context**
 The condition checks two things:
 The battery percentage is between 40% and 80%
 The password the user entered contains the battery percentage (e.g.: battery=57 → pass57word")
