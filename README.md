@@ -51,9 +51,13 @@ Control is done within a Coroutine.
 ## 🔐 Permissions Required
 
 The app uses several permissions:
+
 CAMERA – Smile detection
+
 RECORD_AUDIO – Noise check
+
 ACCESS_FINE_LOCATION – WiFi scan
+
 BLUETOOTH_CONNECT / BLUETOOTH_SCAN – Headphones check
 
 ---
