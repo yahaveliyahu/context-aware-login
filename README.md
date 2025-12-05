@@ -79,12 +79,20 @@ app/
 ## 🎯 Summary
 
 The app demonstrates smart use of Android mechanisms:
-- WiFi
-- Bluetoothc
-- Battery Manager
-- Microphone AudioRecord
-- Camera
-- ML Kit Face Detection
-- Coroutines
-- Permissions API
+✔ WiFi
+
+✔ Bluetooth
+
+✔ Battery Manager
+
+✔ Microphone AudioRecord
+
+✔ Camera
+
+✔ ML Kit Face Detection
+
+✔ Coroutines
+
+✔ Permissions API
+
 and implements a context-based login system.
