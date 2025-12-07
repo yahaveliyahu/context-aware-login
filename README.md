@@ -60,9 +60,7 @@ The app uses several permissions:
 
 ## 📸 Example Scenario (Video)
 
-▶️ **Watch video:**
-
-[Click here to watch the video](https://streamable.com/f15c5w)
+▶️ [Click here to watch the video](https://streamable.com/f15c5w)
 
 ---
 
